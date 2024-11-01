@@ -8,6 +8,6 @@
 
 ## Peer B (Receiver)
 
-- Make connection to Peer A with using TCP via given address (localhost:8080).
+- Makes connection to Peer A with using TCP via given address (localhost:8080).
 
 - Creates new file and reads(receive) files data with `io.Copy` and writes this data to file.
