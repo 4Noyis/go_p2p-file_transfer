@@ -26,7 +26,7 @@ func main() {
 	// Accepting connection
 	conn, err := listener.Accept()
 	if err != nil {
-		fmt.Println("Connection accepting error.", err)
+		fmt.Println("Connection accepting failure.", err)
 		return
 	}
 	defer conn.Close()

@@ -20,7 +20,7 @@ func main() {
 	defer conn.Close()
 	fmt.Println("Peer B: Connected to server.")
 
-	// Open file for saving
+	// Create file for saving
 	file, err := os.Create("received_file.txt")
 	if err != nil {
 		fmt.Println("Creating file failure: ", err)
